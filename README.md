@@ -1,7 +1,11 @@
 # CICD-new
 
 
-gcloud services enable run.googleapis.com artifactregistry.googleapis.com cloudbuild.googleapis.com iam.googleapis.com
+gcloud services enable 
+run.googleapis.com 
+artifactregistry.googleapis.com 
+cloudbuild.googleapis.com iam.googleapis.com
+# gcloud services enable run.googleapis.com artifactregistry.googleapis.com cloudbuild.googleapis.com iam.googleapis.com
 
 gcloud artifacts repositories create hello-repo \
   --repository-format=docker \
